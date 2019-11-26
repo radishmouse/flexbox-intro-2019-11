@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    /* outline-width: 1px;
+    outline-style: solid; */
+    border: 5px solid red;
+}
+
+.parent {
+    border-color: #f80;
+}
+
+.child {
+    border-color: #fe0;
+    height: 100px;
+    width: 100px;
+}
