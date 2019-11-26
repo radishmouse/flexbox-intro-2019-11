@@ -10,7 +10,7 @@ html, body {
 div {
     /* outline-width: 1px;
     outline-style: solid; */
-    border: 5px solid red;
+    border: 10px solid red;
 }
 
 .parent {
@@ -18,11 +18,32 @@ div {
     width: 100%;
     border-color: #f80;
     display: flex;
-    justify-content: flex-end;
+    
+    /* how to line up */
+    flex-direction: row;
+
+    /* where to line up on main axis*/
+    justify-content: center;
+
+    /* where to line up on cross axis */
+    align-items: flex-start;
 }
 
 .child {
     border-color: #fe0;
     height: 100px;
     width: 100px;
+}
+
+.blacksheep {
+    border-color: red;
+    order: 10;
+    align-self: flex-end;
+}
+
+.copycat {
+    border-color: blue;
+    order: 20;
+    align-self: center;
+    
 }

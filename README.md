@@ -16,9 +16,18 @@
 
 # What are flex items (or children)?
 
-
+- The *direct* children of a flex parent
 
 # What is the main axis?
 
+- the imaginary line on which the children sit
+
+# How do you change the direction of the main axis?
+
+- Set the `flex-direction` property
+
+
 # What is the cross axis?
 
+- It's an imaginary line that runs perpendicular to the main axis
+- The parent can control how the children line up in that direction, too.
